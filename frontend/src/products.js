@@ -1,0 +1,108 @@
+const products = [
+  {
+    _id: '1',
+    name: 'Watercolor marbles in glass bowl',
+    image: '/images/marbles-bowl.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.',
+    brand: 'MJThomas',
+    category: 'Watercolor',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    _id: '2',
+    name: 'Peaches colored pencil',
+    image: '/images/peach.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.',
+    brand: 'MJThomas',
+    category: 'Colored Pencil',
+    price: 599.99,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    _id: '3',
+    name: 'Red pepper color pencil',
+    image: '/images/red-pepper.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.',
+    brand: 'MJThomas',
+    category: 'Colored Pencil',
+    price: 929.99,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    _id: '4',
+    name: 'Decoupage octopus cup',
+    image: '/images/octopus-cup.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn.',
+    brand: 'MJThomas',
+    category: 'Decoupage',
+    price: 399.99,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    _id: '5',
+    name: 'Watercolor cherries',
+    image: '/images/cherries-bowl.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.',
+    brand: 'MJThomas',
+    category: 'Mixed Medium',
+    price: 49.99,
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 10,
+  },
+  {
+    _id: '6',
+    name: 'Marbleized acrylic on canvas',
+    image: '/images/marble-ltblue-wht.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.',
+    brand: 'MJThomas',
+    category: 'Abstract',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    _id: '7',
+    name: 'Marbleized acrylic on canvas',
+    image: '/images/fish-plate.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.',
+    brand: 'MJThomas',
+    category: 'Abstract',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    _id: '8',
+    name: 'Marbleized acrylic on canvas',
+    image: '/images/purple-flower.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.',
+    brand: 'MJThomas',
+    category: 'Abstract',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+];
+
+export default products;
