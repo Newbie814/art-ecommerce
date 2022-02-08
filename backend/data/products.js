@@ -1,7 +1,7 @@
 const products = [
   {
     _id: '1',
-    name: 'Watercolor marbles in glass bowl',
+    name: 'Watercolor marbles in glass',
     image: '/images/marbles-bowl.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.',
@@ -67,7 +67,7 @@ const products = [
   {
     _id: '6',
     name: 'Marbleized acrylic on canvas',
-    image: '/images/marble-ltblue-wht.jpg',
+    image: '/images/marble-dkblue-gold.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.',
     brand: 'MJThomas',
@@ -105,4 +105,4 @@ const products = [
   },
 ];
 
-export default products;
+module.exports = products;

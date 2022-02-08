@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable no-undef */
+import React, {useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Row,
@@ -10,10 +11,22 @@ import {
   ListGroupItem,
 } from 'react-bootstrap';
 import Rating from '../components/Rating';
-import products from '../products';
+import axios from "axios"
+import { useParams } from 'react-router-dom';
+
 
 const ProductScreen = ({ match }) => {
-  const product = products.find((p) => p._id === match.params.id);
+  const [product, setProduct] = useState([])
+
+  useEffect(() => {
+   const fetchProduct = async() => {
+     const { data } = await axios.get(`/api/products/${match.params.id}`)
+
+    setProduct(data)
+   }
+
+   fetchProduct()
+ }, [match])
 
   return (
     <>
@@ -27,7 +40,7 @@ const ProductScreen = ({ match }) => {
         <Col md={3}>
           <ListGroup variant='flush'>
             <ListGroup.Item>
-              <h3 class='pname'>{product.name}</h3>
+              <h3>{product.name}</h3>
             </ListGroup.Item>
             <ListGroup.Item>
               <Rating
