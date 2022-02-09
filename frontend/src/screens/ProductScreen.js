@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import React, {useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Row,
@@ -11,22 +11,22 @@ import {
   ListGroupItem,
 } from 'react-bootstrap';
 import Rating from '../components/Rating';
-import axios from "axios"
+import axios from 'axios';
+// eslint-disable-next-line
 import { useParams } from 'react-router-dom';
 
-
 const ProductScreen = ({ match }) => {
-  const [product, setProduct] = useState([])
+  const [product, setProduct] = useState([]);
 
   useEffect(() => {
-   const fetchProduct = async() => {
-     const { data } = await axios.get(`/api/products/${match.params.id}`)
+    const fetchProduct = async () => {
+      const { data } = await axios.get(`/api/products/${match.params.id}`);
 
-    setProduct(data)
-   }
+      setProduct(data);
+    };
 
-   fetchProduct()
- }, [match])
+    fetchProduct();
+  }, [match]);
 
   return (
     <>
