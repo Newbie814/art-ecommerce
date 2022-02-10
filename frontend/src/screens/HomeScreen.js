@@ -36,5 +36,7 @@ const HomeScreen = () => {
   );
 };
 
+
+
 export default HomeScreen;
 // sm=(12) md=(6) lg=(4) xl=(3)
