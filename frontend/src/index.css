@@ -15,12 +15,19 @@ h3 {
   object-fit: cover;
 }
 h1 {
-  color:  #5a5a5a
+  color:  #5a5a5a;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+
 }
-body {
-  /* background-color: #f3969b0a */
+
+h2 {
   
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+
 }
+
 
 
 /* 
