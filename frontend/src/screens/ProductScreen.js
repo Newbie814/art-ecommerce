@@ -9,7 +9,7 @@ import {
   ListGroup,
   Card,
   Button,
-  ListGroupItem,
+  
   Form,
 } from 'react-bootstrap';
 import Rating from '../components/Rating';
@@ -58,8 +58,8 @@ const ProductScreen = ({ history, match }) => {
                 text={`${product.numReviews} reviews`}
               />
             </ListGroup.Item>
-            <ListGroupItem>Price: ${product.price}</ListGroupItem>
-            <ListGroupItem>Description: ${product.description}</ListGroupItem>
+            <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
+            <ListGroup.Item>Description: ${product.description}</ListGroup.Item>
           </ListGroup>
         </Col>
         <Col md={3}>
