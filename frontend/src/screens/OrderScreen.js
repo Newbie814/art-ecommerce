@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Row, Col, ListGroup, Image, Card, Button } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import Message from './Message';
-import Loader from '../components/Loader';
+import Loader from './Loader';
 import {
   getOrderDetails,
   payOrder,

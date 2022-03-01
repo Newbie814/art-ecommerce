@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Carousel, Image } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import Loader from './Loader';
-import Message from './Message';
+import Message from '../screens/Message';
 import { listTopProducts } from '../actions/productActions';
 
 const ProductCarousel = () => {
