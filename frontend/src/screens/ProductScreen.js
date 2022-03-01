@@ -22,8 +22,8 @@ import { PRODUCT_CREATE_REVIEW_RESET } from '../constants/productConstants';
 
 // eslint-disable-next-line
 import { useParams } from 'react-router-dom';
-import Loader from './Loader';
-import Message from './components/Message';
+import Loader from '../components/Loader';
+import Message from '../components/Message';
 import Meta from '../components/Meta';
 
 const ProductScreen = ({ history, match }) => {
