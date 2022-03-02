@@ -33,6 +33,10 @@ const CartScreen = ({ match, location, history }) => {
     dispatch(removeFromCart(id));
   };
 
+  const continueShopping = () => {
+    history.push('/');
+  };
+
   const checkoutHandler = () => {
     history.push('/login?redirect=shipping');
   };
@@ -110,6 +114,16 @@ const CartScreen = ({ match, location, history }) => {
                 onClick={checkoutHandler}
               >
                 Proceed To Checkout
+              </Button>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              <Button
+                type='button'
+                className='btn-block'
+                disabled={cartItems.length === 0}
+                onClick={continueShopping}
+              >
+                Continue Shopping
               </Button>
             </ListGroup.Item>
           </ListGroup>
