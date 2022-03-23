@@ -24,6 +24,12 @@ h2 {
   padding: 0.5rem 0;
 }
 
+@media screen and (max-width: 500px) {
+  .card-img-top {
+    height: 25vh;
+  }
+}
+
 /* carousel */
 .carousel-item-next,
 .carousel-item-prev,
